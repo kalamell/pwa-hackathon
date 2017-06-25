@@ -9,14 +9,14 @@ import People from './People';
 class App extends Component {
   render() {
     return (
-            <Router>
-                <div className="container section">
-                    <Nav />
-                    <Route exact path="/" component={People}/>
-                    <Route path="/create" component={Create}/>
-                    <Footer />
-                </div>
-            </Router>
+        <Router>
+            <div className="container section">
+                <Nav />
+                <Route exact path="/" component={People}/>
+                <Route path="/create" component={Create}/>
+                <Footer />
+            </div>
+        </Router>
     )
   }
 }
